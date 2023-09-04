@@ -65,11 +65,11 @@ button {
 
 .row {
   width: 100%;
-  padding: 0 40px;
+  padding: 20px 20px;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     body {
         display: flex;
         flex-direction: column;
