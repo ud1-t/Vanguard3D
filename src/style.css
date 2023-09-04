@@ -22,6 +22,7 @@ h1,h2,h3,h4,h5 {
   text-transform: uppercase;
   letter-spacing: 1.03px;
   line-height: 1.2em;
+  font-size: 13rem;
 }
 
 h1 {
@@ -65,4 +66,23 @@ button {
 .row {
   width: 100%;
   padding: 0 40px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h1, h2, p, button {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 6rem
+    }
 }

@@ -52,25 +52,25 @@ function App() {
             <Robot />
         {/* </Scroll> */}
         <Scroll html style = {{width: '100%'}}>
-        <h1 className='title' style={{ color: '#cdcbca',position: 'absolute', top: `65vh`,left: '50%', fontSize: '13rem', transform: `translate(-50%,-50%)` }}>VANGUARD</h1>
+        <h1 className='title' style={{ color: '#cdcbca',position: 'absolute', top: `65vh`,left: '50%', transform: `translate(-50%,-50%)` }}>VANGUARD</h1>
           
-          <div className='row' style={{ position: 'absolute', top: `132vh`, left: '12vw'}}>
+          <div className='row' style={{ position: 'absolute', top: `132vh`}}>
             <h2>Be a Man of the Future.</h2>
-            <p style={{ maxWidth: '400px' }}>Futuristic design inspired by advanced technology, this robot is as stylish as it is efficient. Beneath its modern exterior, it houses a powerful AI system and advanced sensors, making it the ultimate companion for a wide range of tasks, offering both functionality and aesthetics.</p>
+            <p style={{ maxWidth: '440px' }}>Futuristic design inspired by advanced technology, this robot is as stylish as it is efficient. Beneath its modern exterior, it houses a powerful AI system and advanced sensors, making it the ultimate companion for a wide range of tasks, offering both functionality and aesthetics.</p>
             <button>Read more</button>
           </div>
 
-          <div className='row' style={{ position: 'absolute', top: `230vh`, left: '64vw'}}>
-            <div className='col' style={{ positipublicon: 'absolute', right: `40px`, width: "540px"}}>
+          <div className='row' style={{ position: 'absolute', top: `230vh`}}>
+            <div className='col' style={{ positipublicon: 'absolute', width: "540px"}}>
               <h2 style={{ maxWidth: "440px" }}>Tech-Savvy Side</h2>
               <p style={{ maxWidth: '440px' }}>A marvel of cutting-edge design and technology. Its imposing, metallic presence is both a testament to its raw power and a warning of its potential dangers.</p>                
               <button>Read more</button>
             </div>
           </div>
           
-          <h2 style={{ position: 'absolute', top: '350vh', left: '50%', transform: `translate(-50%,-50%)` }}>A FUTURISTIC BEHEMOTH</h2>              
+          <h2 style={{ position: 'absolute', top: '350vh', left: '50%', transform: `translate(-50%,-50%)`, textAlign: 'center' }}>A FUTURISTIC BEHEMOTH</h2>              
           
-          <button style={{ position: 'absolute', top: `370vh`,left: '50%', transform: `translate(-50%,-50%)`, background: '#cccccc' }}>Buy now</button>
+          <button style={{ position: 'absolute', top: `370vh`,left: '50%', transform: `translate(-50%,-50%)`, background: '#cccccc', textAlign: 'center' }}>Buy now</button>
         </Scroll>
         </ScrollControls>
         </>
